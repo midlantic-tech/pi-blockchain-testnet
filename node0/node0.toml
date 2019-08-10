@@ -1,0 +1,33 @@
+# File nodeFrankfurt.toml
+
+[parity]
+chain = "pichainspec.json"
+base_path = "node0"
+
+[network]
+port = 30303
+bootnodes = ["enode://5f17d403c8f4fcdd427ff2200d082d6e4dd9359b341685d59038affb504fe84339e7bb48a163cfc8445f0e81af8ddd534ac3b6832ecddcf15c2d370530b95018@10.0.2.15:30302"]
+
+[rpc]
+interface = "local"
+port = 8545
+apis = ["eth","net","rpc","web3"]
+cors = ["*"]
+hosts = ["all"]
+
+[websockets]
+disable = false
+port = 8546
+interface = "local"
+
+[account]
+unlock = ["0xf6bd003d07eba2027c34face6af863fd3f8b5a14"]     
+password = ["node0.pwd"]
+
+#[mining]
+#engine_signer = "0xf6bd003d07eba2027c34face6af863fd3f8b5a14"
+#reseal_on_txs = "none"
+#force_sealing = true
+
+[misc]
+logging = "engine"
