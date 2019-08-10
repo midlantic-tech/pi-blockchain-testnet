@@ -24,10 +24,10 @@ interface = "local"
 unlock = ["0xf6bd003d07eba2027c34face6af863fd3f8b5a14"]     
 password = ["node0.pwd"]
 
-#[mining]
-#engine_signer = "0xf6bd003d07eba2027c34face6af863fd3f8b5a14"
-#reseal_on_txs = "none"
-#force_sealing = true
+[mining]
+engine_signer = "0xf6bd003d07eba2027c34face6af863fd3f8b5a14"
+reseal_on_txs = "none"
+force_sealing = true
 
 [misc]
 logging = "engine"
