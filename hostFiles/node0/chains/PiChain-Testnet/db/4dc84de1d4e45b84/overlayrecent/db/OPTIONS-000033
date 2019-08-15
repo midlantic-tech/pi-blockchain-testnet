@@ -28,7 +28,7 @@
   two_write_queues=false
   bytes_per_sync=1048576
   writable_file_max_buffer_size=1048576
-  wal_dir=/nodeConfig/node0/chains/Pi-Chain-Testnet/db/be68428edbed1b9b/overlayrecent/db
+  wal_dir=/nodeConfig/node0/chains/PiChain-Testnet/db/4dc84de1d4e45b84/overlayrecent/db
   log_file_time_to_roll=0
   keep_log_file_num=1
   WAL_ttl_seconds=0
